@@ -1,0 +1,7 @@
+spring:
+  shell:
+    interactive:
+      enabled: true
+
+  application:
+    name: message-broker-challenge

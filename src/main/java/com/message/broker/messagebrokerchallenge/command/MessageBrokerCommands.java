@@ -1,19 +1,16 @@
 package com.message.broker.messagebrokerchallenge.command;
 
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.Properties;
 
-import com.google.protobuf.Message.Builder;
+import com.google.protobuf.util.JsonFormat;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerRecord;
 import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
-
-import com.google.protobuf.util.JsonFormat;
-import org.apache.kafka.clients.producer.KafkaProducer;
-import org.apache.kafka.clients.producer.ProducerRecord;
 
 
 
